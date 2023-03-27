@@ -10,9 +10,6 @@
     "QNB Finansbank API"
   ],
   "description": "QNB Finansbank E-Fatura ve E-Arşiv PHP Api",
-  "require": {
-    "php": "^8.2"
-  },
   "minimum-stability": "stable",
   "prefer-stable": true,
     "authors": [
@@ -31,6 +28,10 @@
         "psr-4": {
         "QNBFinansbank\\": "src"
         }
+    },
+
+    "require": {
+        "php": "^8.2.0"
     }
     
 }

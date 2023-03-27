@@ -3,7 +3,7 @@
         'name' => 'fatihtuzlu/qfb-api',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'c0222f1af35ff217b278537dc69a4da37baffc2f',
+        'reference' => '5a764f85a92c8dcb7edfcffa8e0f3deb04b3d260',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'fatihtuzlu/qfb-api' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'c0222f1af35ff217b278537dc69a4da37baffc2f',
+            'reference' => '5a764f85a92c8dcb7edfcffa8e0f3deb04b3d260',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

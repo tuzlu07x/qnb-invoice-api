@@ -10,8 +10,7 @@ Paketi kullanmak için, öncelikle BaseSoapClient, Adaptor, ItemAdaptor, Archive
 
 Aşağıdaki örnek kod, Archive ve EInvoice sınıflarını kullanarak E-Arşiv ve E-Fatura işlemlerini gerçekleştirmenize yardımcı olacaktır:
 
-```
-<?php
+```php
 
 use QNBFinansbank\BaseSoapClient;
 use QNBFinansbank\Invoice\EArchive\Archive;
@@ -67,7 +66,7 @@ $adaptor->setCustomerAuthorizedSurname('Tuzlu');
 
 ### E-Arşiv
 
-```
+```php
 $data = new Archive($xml, $client);
 $data->sendArchive(); //e arsiv fatura gönderme
 $data->inguireArchive('uuid'); //e arsiv fatura sorgulama
@@ -78,7 +77,7 @@ $data->callToCancelArchive('vergiTcKimlikNo', 'uuid', 'invoiceNo'); //e arsiv fa
 
 ### E-Fatura
 
-```
+```php
 $invoice = new EInvoice('erpCode', $xml, $client);
 $invoice->sendInvoice(); //e fatura gönderme
 $invoice->invoiceInquiry('ettn'); //e fatura sorgulama

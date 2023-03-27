@@ -13,7 +13,7 @@
   "require": {
     "php": "^8.2"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
     "authors": [
     {

@@ -1,0 +1,34 @@
+{
+    "name": "fatihtuzlu/qfb-api",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+    "e-belge",
+    "dijital arşiv",
+    "finansbank",
+    "PHP programlama dili",
+    "QNB Finansbank API"
+  ],
+  "description": "QNB Finansbank E-Fatura ve E-Arşiv PHP Api",
+    "require": {
+        "php": "^8.2"
+    },
+    "authors": [
+    {
+      "name": "Fatih TUZLU",
+      "email": "fatihtuzlu07@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload-dev": {
+    "psr-4": {
+      "QNBFinansbank\\": "src"
+    }
+  },
+    "autoload": {
+        "psr-4": {
+        "QNBFinansbank\\": "src"
+        }
+    }
+    
+}

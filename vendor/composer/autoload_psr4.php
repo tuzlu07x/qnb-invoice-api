@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'QNBFinansbank\\' => array($baseDir . '/src'),
+    'QNBFinansbank\\' => array($baseDir . '/src', $baseDir . '/src'),
 );

@@ -17,6 +17,7 @@ class ComposerStaticInit5c4a81f05b168a84ff7528e7e52f3301
         'QNBFinansbank\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/../..' . '/src',
         ),
     );
 

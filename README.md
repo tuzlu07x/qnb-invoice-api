@@ -2,7 +2,7 @@
 
 ## KURULUM
 
-    composer require qnbfinansbank/qfb-api
+    composer require fatihtuzlu/qfb-api
 
 ## KULLANIM
 

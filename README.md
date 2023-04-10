@@ -43,7 +43,7 @@ $itemData = [
     ]
 ];
 
-$itemAdaptor = new ItemAdaptor('TL', $itemDatas);
+$itemAdaptor = new ItemAdaptor('TL', $itemData);
 $client = new BaseSoapClient($url, $vkn, $password);
 $client->setUserName('ftuzlu.earsiv');
 

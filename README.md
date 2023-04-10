@@ -28,7 +28,7 @@ $country = "Türkiye";
 $city = "Antalya";
 $district = "Konyaaltı";
 
-$itemDatas = [
+$itemData = [
     [
         'id' => 1,
         'note' => 'test',
